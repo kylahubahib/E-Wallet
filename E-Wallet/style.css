@@ -1,0 +1,100 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: dodgerblue;
+    display: flex;
+}
+
+#text1 {
+    flex: 1;
+    margin: 12px 1vh 0px 10px;
+    font-size: 25px;
+    color: darkslateblue;
+    text-align: left;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif
+}
+
+.nav-links {
+    list-style-type: none;
+    text-align: right;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-top: 15px;
+    align-items: center;
+    padding-right: 40px;
+}
+
+.nav-links a {
+     height: 50px;
+     text-decoration: none;
+     color: black;
+     font-size: 20px;
+     font-weight:bold;
+     font-family: "Poppins", sans-serif;
+}
+
+.nav-links a:hover{
+    color: aliceblue;
+}
+
+
+/*Admin Buttons*/
+.action2{
+    margin: 50px;
+
+}
+
+.actionlist2 {
+    list-style-type: none;
+    text-align: left;
+
+}
+
+.actionlist2 li {
+    background-color: dodgerblue;
+    border-radius: 5px;
+    width: 35vh;
+    height: 10vh;
+    margin-bottom: 20px;
+    padding-top: 24px;
+}
+
+
+.actionlist2 li a{
+    margin: 20px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif
+
+}
+
+
+.content {
+    display: flex;
+    flex: 0;
+}
+
+
+
+#secure {
+    text-decoration: none;
+    text-align: right;
+    margin: auto;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: dodgerblue;
+    font-family: "Poppins", sans-serif
+}
